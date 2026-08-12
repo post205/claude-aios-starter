@@ -18,7 +18,7 @@ This is the brain-rewire mechanism. The kit doesn't need cron jobs to anchor beh
 ## When `/level-up` runs
 
 - **First run: Day 14.** After the user has connected ≥1 tool and run `/audit` once. Earlier yields trivial output.
-- **Cadence: weekly, Friday afternoon.** Review the week, surface one automation, ship Monday.
+- **Weekly, Friday afternoon.** Review the week, surface one automation, ship Monday.
 - **On-demand any time.** Mid-week if a manual task itches.
 
 ## Inputs the skill reads

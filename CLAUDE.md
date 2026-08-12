@@ -8,12 +8,14 @@ Read `references/the-shift.md` once. It's how {{Your Name}} thinks about AI work
 
 ## Your architecture — The Stack
 
-`references/the-stack.md` is the four-layer model this AIOS is built on: Context (it knows the business), Connections (it reaches the tools), Capabilities (it knows how to do the work), Cadence (it runs unasked). Reference it when running `/audit`, and when deciding where a new file or skill belongs.
+`references/the-stack.md` is the five-layer model this AIOS is built on, framed as onboarding a hire: Memory (it knows the business), Reach (it touches the tools), Skill (it knows how to do the work), Judgment (it knows what it may decide alone), Initiative (it moves before being asked). Reference it when running `/audit`, and when deciding where a new file or skill belongs.
+
+Judgment is the layer that governs you. Default to drafting for review over sending. Never act above the autonomy level a workflow has actually proven.
 
 ## Your skills
 
 - `/onboard` — already run if you're seeing this filled in. Re-run any time to refresh from an edited `aios-intake.md`.
-- `/audit` — Stack gap report. Run on Day 7, then weekly. Watch your score climb.
+- `/audit` — Stack gap report, five layers out of 100. Run on Day 7, then weekly. Watch your score climb.
 - `/level-up` — Weekly Shift interview. Find one automation, scope it, ship it. One per week.
 
 ## Where things live

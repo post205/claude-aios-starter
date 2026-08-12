@@ -44,16 +44,19 @@ Full breakdown in [`references/the-shift.md`](references/the-shift.md). `/level-
 
 ### The Stack — the architecture (what you build)
 
+Five layers. Read them as the five things you'd assess in someone you just hired, because that's what they are.
+
 | # | Layer | It means | You'll know it's in place when |
 |---|---|---|---|
-| 1 | **Context** | It knows your business | A fresh session answers *"what does this business do and who works here?"* without browsing |
-| 2 | **Connections** | It reaches your tools and data | *"What's on my calendar tomorrow?"* returns live data with nothing pasted in |
-| 3 | **Capabilities** | It knows how to do the work | A short phrase triggers a multi-step workflow that ends in a real artifact |
-| 4 | **Cadence** | It runs without being asked | Laptop closed. A brief lands in your inbox anyway |
+| 1 | **Memory** | It knows your business | A cold session answers *"what do we do, who works here, what did we decide in June?"* |
+| 2 | **Reach** | It touches your tools and data | *"What's due this week?"* returns live data — and it can write, not just read |
+| 3 | **Skill** | It knows how to do the work | A short phrase produces a finished artifact, the same shape every time |
+| 4 | **Judgment** | It knows what it may decide alone | Every workflow has a named autonomy level, and nothing runs above the level you proved |
+| 5 | **Initiative** | It moves before you ask | You didn't prompt it. The work was done anyway |
 
-Build order: **Context first** — everything stands on it. Connections and Capabilities in parallel. **Cadence last** — never schedule something that doesn't work by hand yet.
+Build order: **Memory first** — everything above inherits its quality. Reach and Skill in parallel. **Judgment before Initiative** — decide what it's allowed to do before you let it act unwatched. Reverse those two and you've handed a new hire the company card and gone on holiday.
 
-Full breakdown in [`references/the-stack.md`](references/the-stack.md). `/audit` scores you on all four.
+Full breakdown in [`references/the-stack.md`](references/the-stack.md). `/audit` scores all five, 20 points each.
 
 ---
 
@@ -64,7 +67,7 @@ Lean on purpose. One sets you up, two keep you compounding.
 | Skill | Type | When to run |
 |---|---|---|
 | `/onboard` | Setup wizard, one-time | Day 1, right after you clone. A 7-question interview, ~15 minutes. Writes your Day-1 files and fills `CLAUDE.md`. |
-| `/audit` | Recurring, structural | Day 7, then weekly. Scores The Stack out of 100 and ranks your gaps. Read-only. |
+| `/audit` | Recurring, structural | Day 7, then weekly. Scores the five layers out of 100 and ranks your gaps by leverage. Read-only. |
 | `/level-up` | Recurring, functional | Day 14, then weekly. The Shift interview. One run = one shipped automation. |
 
 `/audit` asks *"is this built right?"* `/level-up` asks *"what leverage am I still missing?"* Run them in that order — fixing structure first makes the capability planning worth doing.
@@ -101,7 +104,7 @@ AIOS/
 ├── context/                      ← About you, your business, your quarter
 ├── references/
 │   ├── the-shift.md              ← The operator brain (Question · Cut · Build)
-│   └── the-stack.md              ← The architecture (Context · Connections · Capabilities · Cadence)
+│   └── the-stack.md              ← The architecture (Memory · Reach · Skill · Judgment · Initiative)
 ├── decisions/
 │   └── log.md                    ← Append-only: what was decided, and why
 ├── archives/                     ← Old stuff. Don't delete. Move it here.
@@ -116,9 +119,9 @@ AIOS/
 
 ---
 
-## A note on connections
+## A note on wiring tools
 
-The kit ships with none wired. That's deliberate — Day 1 is context, Day 2 is connections.
+The kit ships with nothing connected. That's deliberate — Day 1 is Memory, Day 2 is Reach.
 
 When you do wire something, prefer a thin command or script you call on demand over a heavy integration that loads its entire toolset into every session. One costs you tokens when you use it. The other charges rent on every conversation you ever have. Then write down what you learned in `references/{tool}-api.md`, so the next skill you build doesn't have to figure out the same API twice.
 

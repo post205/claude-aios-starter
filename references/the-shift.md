@@ -177,6 +177,8 @@ Even at 90% confidence, start with 10% of the volume. Watch a week. Add more. Li
 
 ### Treat AI like a new hire
 
+This is Layer 4 of The Stack — Judgment. It gets its own layer there because it's the one people skip.
+
 Day-one trust, not founder trust:
 
 - **Its own identity** — its own accounts and credentials, never yours.
